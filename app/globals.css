@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+@font-face {
+  font-family: "Beatrice";
+  src: url("/fonts/BeatriceDisplayTRIAL-Thin-BF64829e8c9169f.otf") format("woff"),
+    url("/fonts/BeatriceDisplayTRIAL-Thin-BF64829e8c9169f.otf")format("woff2"),
+    url("/fonts/BeatriceDisplayTRIAL-Thin-BF64829e8c9169f.otf") format("opentype")
+    url("/fonts/BeatriceDisplayTRIAL-Thin-BF64829e8c9169f.otf")format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
